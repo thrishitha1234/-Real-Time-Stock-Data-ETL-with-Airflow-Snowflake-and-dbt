@@ -79,18 +79,21 @@ This interactive Superset dashboard visualizes real-time trends in **NVIDIA (NVD
 
 <img width="1031" height="424" alt="image" src="https://github.com/user-attachments/assets/fa91beef-cc42-467c-a98e-f8c196ad160f" />
 
-This dashboard focuses on short-term performance analysis for NVIDIA (NVDA) and Microsoft (MSFT) by offering a dynamic view of:
+📊 Filtered Stock Insights Dashboard
+This Superset dashboard delivers a focused view of recent stock trends for NVIDIA (NVDA) and Microsoft (MSFT), enabling quick analysis of short-term performance.
 
-📈 Closing Price Trends (e.g., NVDA from Sep–Nov)
-📊 Side-by-Side Monthly Comparison of NVDA and MSFT
-📅 7-Day Price History for rapid short-term analysis
+Daily Closing Price Trends (e.g., NVDA from September–November)
+Side-by-Side Monthly Comparisons for NVDA & MSFT
+7-Day Price History for rapid fluctuation tracking
 
-🔍 Use Cases:
-Track short-term momentum
-Compare performance across specific dates
-Assess immediate price fluctuations
+👥 Designed For:
+📈 Short-Term Investors – to monitor recent stock behavior before trading
+🔎 Analysts – to compare specific date ranges across symbols
+📊 Portfolio Managers – to assess short-term volatility patterns
 
----
+📂 Dataset Sources:
+Historical daily OHLC prices for NVDA and MSFT
+RSI and moving averages computed via dbt transformations
 
 ## 📁 Folder Structure
 ├── airflow/ # DAGs, configs, Docker setup
@@ -106,8 +109,6 @@ Assess immediate price fluctuations
 - Data quality checks and snapshots
 - Building investor-facing dashboards with Superset
 - Containerizing pipelines with Docker
-
-
 
 ---
 
