@@ -56,10 +56,10 @@ Through this project, I gained hands-on experience orchestrating automated workf
 ---
 
 ##  Dashboards
+### 1. Real-Time Stock Performance Overview
 
 <img width="1158" height="460" alt="image" src="https://github.com/user-attachments/assets/78b58ca0-8540-499e-bb0b-f31632df943d" />
 
-## 📊 Dashboard Overview
 
 This interactive Superset dashboard visualizes real-time trends in **NVIDIA (NVDA)** and **Microsoft (MSFT)** stock performance using:
 
@@ -76,23 +76,28 @@ This interactive Superset dashboard visualizes real-time trends in **NVIDIA (NVD
 - Daily OHLC stock prices for NVDA and MSFT
 - Calculated RSI and moving averages using dbt models
 
+### 2. Filtered Stock Insights Dashboard
 
 <img width="1031" height="424" alt="image" src="https://github.com/user-attachments/assets/fa91beef-cc42-467c-a98e-f8c196ad160f" />
 
-📊 Filtered Stock Insights Dashboard
 This Superset dashboard delivers a focused view of recent stock trends for NVIDIA (NVDA) and Microsoft (MSFT), enabling quick analysis of short-term performance.
 
 Daily Closing Price Trends (e.g., NVDA from September–November)
+
 Side-by-Side Monthly Comparisons for NVDA & MSFT
+
 7-Day Price History for rapid fluctuation tracking
 
 👥 Designed For:
 📈 Short-Term Investors – to monitor recent stock behavior before trading
+
 🔎 Analysts – to compare specific date ranges across symbols
+
 📊 Portfolio Managers – to assess short-term volatility patterns
 
 📂 Dataset Sources:
 Historical daily OHLC prices for NVDA and MSFT
+
 RSI and moving averages computed via dbt transformations
 
 ## 📁 Folder Structure
