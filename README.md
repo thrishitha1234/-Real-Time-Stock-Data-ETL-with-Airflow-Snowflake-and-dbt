@@ -59,46 +59,61 @@ Through this project, I gained hands-on experience orchestrating automated workf
 
 <img width="1158" height="460" alt="image" src="https://github.com/user-attachments/assets/78b58ca0-8540-499e-bb0b-f31632df943d" />
 
-Purpose:
-The purpose of this dashboard is to enable users to analyze key stock performance
-indicators, specifically for NVIDIA (NVDA) and Microsoft (MSFT) stocks. By tracking various
-metrics such as the Relative Strength Index (RSI), moving averages, and closing prices, the
-dashboard supports informed trading and investment decisions. It aims to help users assess
-momentum, identify trends, and gauge price stability over time.
-Usage:
-• Investors and Traders who want to monitor stocks’ momentum and trend patterns to
-make buy, hold, or sell decisions.
-• Technical Analysts focusing on RSI to spot potential reversal points.
-• Financial Analysts looking to identify and interpret trends for investment insights.
-Dataset:
-• Stock Prices: Historical daily stock prices for NVIDIA (NVDA) and Microsoft (MSFT),
-including opening, high, low, and closing prices.
-• RSI Data: Calculated daily RSI values for each stock, derived from the stock price dataset.
-• Moving Averages: Calculated 30-day moving averages based on historical daily closing
-prices to reflect short-term trends.
+## 📊 Dashboard Overview
+
+This interactive Superset dashboard visualizes real-time trends in **NVIDIA (NVDA)** and **Microsoft (MSFT)** stock performance using:
+
+- **Closing Prices**
+- **7 & 30-Day Moving Averages**
+- **Relative Strength Index (RSI)**
+
+### 👥 Designed For:
+- 📈 **Investors & Traders** – to make informed buy/sell decisions based on momentum
+- 📉 **Technical Analysts** – to spot reversal points using RSI
+- 📊 **Financial Analysts** – to identify price stability and short-term trends
+
+### 📂 Dataset Sources:
+- Daily OHLC stock prices for NVDA and MSFT
+- Calculated RSI and moving averages using dbt models
+
 
 <img width="1031" height="424" alt="image" src="https://github.com/user-attachments/assets/fa91beef-cc42-467c-a98e-f8c196ad160f" />
 
-Purpose:
-This dashboard is designed to provide a filtered view of stock performance,
-focusing on recent trends and specific stock symbols (e.g., NVDA and MSFT). It seems to
-be aimed at tracking short-term stock movements.
-Usage:
-• Stock Close Prices: The first chart shows the closing price of NVDA over time, allowing
-users to track its performance from September to November.
-• Previous Month Comparison: The second chart compares the previous month's closing
-prices for both NVDA and MSFT on specific dates, giving a side-by-side comparison of
-these two stocks.
-• 7-Day Stock Price History: The third chart shows the 7-day historical prices for both
-NVDA and MSFT, helping users quickly assess short-term price fluctuations.
-Dataset:
-• Stock Prices: Historical daily stock prices for NVIDIA (NVDA) and Microsoft (MSFT),
-including opening, high, low, and closing prices.
-• RSI Data: Calculated daily RSI values for each stock, derived from the stock price dataset.
-• Moving Averages: Calculated 30-day moving averages based on historical daily closing
-prices to reflect short-term trends.
+This dashboard focuses on short-term performance analysis for NVIDIA (NVDA) and Microsoft (MSFT) by offering a dynamic view of:
+
+📈 Closing Price Trends (e.g., NVDA from Sep–Nov)
+📊 Side-by-Side Monthly Comparison of NVDA and MSFT
+📅 7-Day Price History for rapid short-term analysis
+
+🔍 Use Cases:
+Track short-term momentum
+Compare performance across specific dates
+Assess immediate price fluctuations
 
 ---
 
 ## 📁 Folder Structure
+├── airflow/ # DAGs, configs, Docker setup
+├── dbt/ # dbt models and snapshots
+├── superset/ # Superset configs
+├── assets/ # Screenshots and architecture diagrams
+├── README.md
+
+## ✅ Key Learning Outcomes
+
+- Orchestrating multi-stage ETL pipelines with Airflow
+- Real-world data modeling using dbt in Snowflake
+- Data quality checks and snapshots
+- Building investor-facing dashboards with Superset
+- Containerizing pipelines with Docker
+
+
+
+---
+
+## 🚀 Future Enhancements
+
+- Support dynamic list of stock symbols
+- Add Slack/Email alerts for failed DAG runs
+- Migrate to fully cloud-native stack using GCP or AWS services
 
