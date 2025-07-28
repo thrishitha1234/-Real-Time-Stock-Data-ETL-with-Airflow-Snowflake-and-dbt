@@ -55,12 +55,48 @@ Through this project, I gained hands-on experience orchestrating automated workf
 
 ---
 
-## 📊 Example Dashboards
+##  Dashboards
 
-Coming soon — dashboards with:
-- Historical close price trends
-- RSI for NVDA and MSFT
-- 7-day vs. 30-day moving average patterns
+<img width="1158" height="460" alt="image" src="https://github.com/user-attachments/assets/78b58ca0-8540-499e-bb0b-f31632df943d" />
+
+Purpose:
+The purpose of this dashboard is to enable users to analyze key stock performance
+indicators, specifically for NVIDIA (NVDA) and Microsoft (MSFT) stocks. By tracking various
+metrics such as the Relative Strength Index (RSI), moving averages, and closing prices, the
+dashboard supports informed trading and investment decisions. It aims to help users assess
+momentum, identify trends, and gauge price stability over time.
+Usage:
+• Investors and Traders who want to monitor stocks’ momentum and trend patterns to
+make buy, hold, or sell decisions.
+• Technical Analysts focusing on RSI to spot potential reversal points.
+• Financial Analysts looking to identify and interpret trends for investment insights.
+Dataset:
+• Stock Prices: Historical daily stock prices for NVIDIA (NVDA) and Microsoft (MSFT),
+including opening, high, low, and closing prices.
+• RSI Data: Calculated daily RSI values for each stock, derived from the stock price dataset.
+• Moving Averages: Calculated 30-day moving averages based on historical daily closing
+prices to reflect short-term trends.
+
+<img width="1031" height="424" alt="image" src="https://github.com/user-attachments/assets/fa91beef-cc42-467c-a98e-f8c196ad160f" />
+
+Purpose:
+This dashboard is designed to provide a filtered view of stock performance,
+focusing on recent trends and specific stock symbols (e.g., NVDA and MSFT). It seems to
+be aimed at tracking short-term stock movements.
+Usage:
+• Stock Close Prices: The first chart shows the closing price of NVDA over time, allowing
+users to track its performance from September to November.
+• Previous Month Comparison: The second chart compares the previous month's closing
+prices for both NVDA and MSFT on specific dates, giving a side-by-side comparison of
+these two stocks.
+• 7-Day Stock Price History: The third chart shows the 7-day historical prices for both
+NVDA and MSFT, helping users quickly assess short-term price fluctuations.
+Dataset:
+• Stock Prices: Historical daily stock prices for NVIDIA (NVDA) and Microsoft (MSFT),
+including opening, high, low, and closing prices.
+• RSI Data: Calculated daily RSI values for each stock, derived from the stock price dataset.
+• Moving Averages: Calculated 30-day moving averages based on historical daily closing
+prices to reflect short-term trends.
 
 ---
 
